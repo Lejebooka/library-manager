@@ -37,27 +37,30 @@ Library Manager is a console application designed to manage a library of books. 
    - When adding a book, the user enters its title, author, and year.
    - When updating the status, the user provides the book's ID and new status.
 
-3. All actions are logged in the library.log file, including adding, removing, and error events.
+3. All actions are logged in the `library.log` file, including adding, removing, and error events.
 
-4. When the user exits the program, the data is automatically saved in the library.json file, so it can be loaded during the next run.
+4. When the user exits the program, the data is automatically saved in the `library.json` file, so it can be loaded during the next run.
 
 ## Example Usage
 
 ### Adding a Book
+```plaintext
 Enter title: 1984
 Enter author: George Orwell
 Enter year: 1949
 Book added with ID: c2a9ff44-5e22-4cfb-bb70-08d57e3f6dc2
-
+```
 ### Searching for a Book
+```plaintext
 Enter search query: Orwell
 [3f5c1f2a-a4e8-4bd8-bb70-08d57e3f6dc2] 1984 by George Orwell (1949) - available
-
+```
 ### Updating Book Status
+```plaintext
 Enter book ID to update: 3f5c1f2a-a4e8-4bd8-bb70-08d57e3f6dc2
 Enter new status (available/borrowed): borrowed
 Book status updated successfully.
-
+```
 
 ## Installation and Running the Application
 
@@ -66,35 +69,32 @@ Book status updated successfully.
 
 ### Installation
 1. Clone the repository:
-   '''bash
+   ```bash
    git clone https://github.com/Legeboojka/library-manager.git
    cd library-manager
-   
 
-2. (Recommended) Create a virtual environment:
-   '''bash
+3. (Recommended) Create a virtual environment:
+   ```bash
    python -m venv venv
    source venv/bin/activate   # On Windows: venv\Scripts\activate
-   
 
-3. Run the application:
-   '''bash
+4. Run the application:
+   ```bash
    python main.py
-   
 
 ## Logging
 
-The application logs events to the library.log file, including successful operations and errors. This makes it easier to diagnose issues if they arise.
+The application logs events to the `library.log` file, including successful operations and errors. This makes it easier to diagnose issues if they arise.
 
 
 ## Testing
 
 To run the tests and verify the functionality of the components, use the following command:
-'''bash
+```bash
 python -m unittest discover tests
-
+```
 
 ## License
 
-This project is licensed under the MIT License. You are free to use and modify the code.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
