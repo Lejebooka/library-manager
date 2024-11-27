@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1af63606-fbb1-44f9-848d-5b364b7355ae",
+        "title": "1984",
+        "author": "George Orwell",
+        "year": 1949,
+        "status": "available"
+    },
+    {
+        "id": "85d0d83c-b6d2-4f98-92a6-426a84453c76",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "year": 1925,
+        "status": "available"
+    },
+    {
+        "id": "cba0059a-0afe-4e49-9c50-537f597f9282",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "year": 1960,
+        "status": "available"
+    },
+    {
+        "id": "aae0e08e-f3b5-4b44-a192-f9c1efca3c69",
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "year": 1851,
+        "status": "borrowed"
+    },
+    {
+        "id": "6f9f688b-74ba-4bbc-a75f-ae25a526315b",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "year": 1813,
+        "status": "available"
+    },
+    {
+        "id": "e2b3ded5-04a7-4c37-b678-f487a738f474",
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "year": 1965,
+        "status": "available"
+    }
+]

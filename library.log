@@ -1,0 +1,10 @@
+2024-11-26 16:40:46,607 - INFO - Added book: 1984 by George Orwell.
+2024-11-26 17:19:28,723 - INFO - Added book: The Great Gatsby by F. Scott Fitzgerald.
+2024-11-26 17:20:38,692 - INFO - Added book: To Kill a Mockingbird by Harper Lee.
+2024-11-26 17:21:09,549 - INFO - Added book: Moby Dick by Herman Melville.
+2024-11-26 17:22:46,528 - ERROR - Error: Book ID not found.
+2024-11-26 17:23:17,907 - INFO - Updated status for book with ID: d3e4c9f1-39d5-4f9c-931e-17cea9b3b069 to borrowed
+2024-11-26 17:25:02,863 - INFO - Added book: Pride and Prejudice by Jane Austen.
+2024-11-26 17:25:08,403 - ERROR - Error: Book ID not found.
+2024-11-27 11:37:17,780 - INFO - Added book: Dune by Frank Herbert.
+2024-11-27 11:37:29,259 - ERROR - Error: Book ID not found.
